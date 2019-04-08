@@ -5,6 +5,7 @@ import * as Type from 'music-metadata/lib/type';
 import * as toBuffer from 'typedarray-to-buffer';
 import { Browser2NodeStream } from './fetch/Browser2NodeStream';
 
+Buffer.alloc(0);
 const debug = initDebug('music-metadata-browser');
 
 export type IAudioMetadata = Type.IAudioMetadata;
@@ -138,3 +139,5 @@ export const orderTags = mm.orderTags;
  * @returns {number} Number of stars: 1, 2, 3, 4 or 5 stars
  */
 export const ratingToStars = mm.ratingToStars;
+
+export const ownBuffer = Buffer;
