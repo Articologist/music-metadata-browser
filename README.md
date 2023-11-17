@@ -12,7 +12,7 @@
 
 [music-metadata](https://github.com/Borewit/music-metadata) release for the browser.
 
-## Features
+## Featured
 
   * Supports metadata of the following audio and tag types:
 
